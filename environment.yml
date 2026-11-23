@@ -1,0 +1,24 @@
+# Python environment of the reported results (Anaconda "defaults" channel, Windows 64-bit, MKL-linked NumPy).
+# The exact builds matter: the mutual-information taxa selection is sensitive to last-digit differences, and NumPy
+# linked against OpenBLAS (for example, pip wheels) changes the residualized sensitivity analysis.
+name: dmdep
+channels:
+  - defaults
+dependencies:
+  - python=3.13.5=h286a616_100_cp313
+  - blas=1.0=mkl
+  - mkl=2023.1.0=h6b88ed4_46358
+  - intel-openmp=2023.1.0=h59b6b97_46320
+  - mkl-service=2.4.0=py313h827c3e9_2
+  - numpy=2.1.3=py313he6dc315_0
+  - numpy-base=2.1.3=py313h6011491_0
+  - scipy=1.15.3=py313hde77213_0
+  - pandas=2.2.3=py313h5da7b33_0
+  - scikit-learn=1.6.1=py313h585ebfc_0
+  - imbalanced-learn=0.13.0=py313haa95532_0
+  - sklearn-compat=0.1.3=py313haa95532_0
+  - threadpoolctl=3.5.0=py313h4442805_0
+  - joblib=1.4.2=py313haa95532_0
+  - matplotlib=3.10.0=py313haa95532_1
+  - matplotlib-base=3.10.0=py313h7aa5d4e_1
+  - openpyxl=3.1.5=py313h827c3e9_1
