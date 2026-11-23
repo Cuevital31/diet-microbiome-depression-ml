@@ -1,0 +1,6 @@
+work/
+data/input/
+env/
+r-lib/
+__pycache__/
+*.pyc
