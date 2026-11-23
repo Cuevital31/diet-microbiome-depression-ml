@@ -1,0 +1,4 @@
+Family (configurations),Observed maximum,Best configuration,k,Null maximum: median,Null maximum: 95th percentile,p
+15,0.627,Diet + Taxa | SVM,495,0.624,0.758,0.496
+12,0.596,Confounders + Diet + Taxa | LR,663,0.622,0.756,0.663
+9,0.627,Diet + Taxa | SVM,378,0.602,0.729,0.379

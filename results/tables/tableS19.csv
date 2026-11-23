@@ -1,0 +1,24 @@
+Configuration,OR per SD [95% interval],Delta D2,Replicates excluded,OR interval excludes 1
+Main analysis | Confounders | LR,"0.65 [0.14, 1.28]",0.015,19,False
+Main analysis | Confounders | SVM,"0.80 [0.19, 1.62]",0.005,19,False
+Main analysis | Confounders | BRF,"0.56 [0.06, 1.07]",0.026,24,False
+Main analysis | Diet | LR,"0.80 [0.32, 1.19]",0.006,19,False
+Main analysis | Diet | SVM,"0.88 [0.36, 1.37]",0.002,20,False
+Main analysis | Diet | BRF,"1.14 [0.39, 2.39]",0.002,17,False
+Main analysis | Taxa | LR,"1.00 [0.51, 2.38]",0.000,18,False
+Main analysis | Taxa | SVM,"1.00 [0.51, 1.55]",0.000,17,False
+Main analysis | Taxa | BRF,"0.96 [0.47, 2.07]",0.000,18,False
+Main analysis | Diet + Taxa | LR,"1.49 [0.75, 5.93]",0.024,19,False
+Main analysis | Diet + Taxa | SVM,"1.75 [0.83, 7.50]",0.033,18,False
+Main analysis | Diet + Taxa | BRF,"1.10 [0.40, 2.02]",0.001,18,False
+Main analysis | Confounders + Diet + Taxa | LR,"1.46 [0.67, 6.14]",0.012,17,False
+Main analysis | Confounders + Diet + Taxa | SVM,"1.39 [0.86, 2.98]",0.011,17,False
+Main analysis | Confounders + Diet + Taxa | BRF,"0.94 [0.29, 1.72]",0.000,18,False
+Residualized | Diet_adj | LR,"0.97 [0.41, 1.61]",0.000,17,False
+Residualized | Diet_adj | SVM,"1.00 [0.46, 1.64]",0.000,17,False
+Residualized | Taxa_adj | LR,"0.94 [0.51, 2.41]",0.000,18,False
+Residualized | Taxa_adj | SVM,"0.95 [0.46, 2.85]",0.000,17,False
+Residualized | Diet_adj + Taxa_adj | LR,"1.18 [0.76, 3.22]",0.003,18,False
+Residualized | Diet_adj + Taxa_adj | SVM,"1.10 [0.63, 3.07]",0.001,17,False
+Residualized | Confounders + Diet_adj + Taxa_adj | LR,"0.92 [0.50, 1.94]",0.001,17,False
+Residualized | Confounders + Diet_adj + Taxa_adj | SVM,"1.00 [0.59, 2.19]",0.000,17,False

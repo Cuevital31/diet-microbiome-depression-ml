@@ -1,0 +1,11 @@
+Input features,Model,Source,ROC-AUC,ROC-AUC 95% CI,BAL-ACC,SEN,SPE
+Confounders,LR,main analysis,0.498 ± 0.115,0.347–0.653,0.480 ± 0.110,0.267 ± 0.149,0.693 ± 0.146
+Confounders,SVM,main analysis,0.511 ± 0.129,0.356–0.671,0.460 ± 0.086,0.267 ± 0.149,0.653 ± 0.099
+Diet_adj,LR,residualized,0.498 ± 0.064,0.356–0.640,0.440 ± 0.138,0.400 ± 0.279,0.480 ± 0.185
+Diet_adj,SVM,residualized,0.538 ± 0.093,0.404–0.671,0.453 ± 0.080,0.400 ± 0.279,0.507 ± 0.146
+Taxa_adj,LR,residualized,0.582 ± 0.140,0.409–0.733,0.553 ± 0.143,0.400 ± 0.279,0.707 ± 0.146
+Taxa_adj,SVM,residualized,0.596 ± 0.144,0.440–0.738,0.560 ± 0.138,0.400 ± 0.279,0.720 ± 0.173
+Diet_adj + Taxa_adj,LR,residualized,0.587 ± 0.145,0.440–0.720,0.587 ± 0.107,0.400 ± 0.149,0.773 ± 0.203
+Diet_adj + Taxa_adj,SVM,residualized,0.604 ± 0.210,0.467–0.729,0.527 ± 0.162,0.333 ± 0.236,0.720 ± 0.197
+Confounders + Diet_adj + Taxa_adj,LR,residualized,0.538 ± 0.085,0.391–0.680,0.513 ± 0.148,0.200 ± 0.298,0.827 ± 0.037
+Confounders + Diet_adj + Taxa_adj,SVM,residualized,0.551 ± 0.171,0.413–0.693,0.467 ± 0.135,0.133 ± 0.298,0.800 ± 0.082

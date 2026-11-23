@@ -1,0 +1,15 @@
+Reference,Comparator,Observed difference,Bootstrap median difference,95% interval low,95% interval high,Interval includes zero
+Confounders + Diet + Taxa | LR,Confounders | LR,0.09777777777777777,0.0977777778,-0.0667777778,0.2712222222,True
+Confounders + Diet + Taxa | LR,Confounders | SVM,0.08444444444444446,0.0888888889,-0.0888888889,0.2666666667,True
+Confounders + Diet + Taxa | LR,Confounders | BRF,0.1377777777777778,0.1466666667,-0.0578888889,0.3422222222,True
+Confounders + Diet + Taxa | LR,Diet | LR,0.04444444444444444,0.0488888889,-0.1023333333,0.2,True
+Confounders + Diet + Taxa | LR,Diet | SVM,0.017777777777777802,0.0222222222,-0.1377777778,0.1733333333,True
+Confounders + Diet + Taxa | LR,Diet | BRF,0.0888888888888889,0.0977777778,-0.1333333333,0.3066666667,True
+Confounders + Diet + Taxa | LR,Taxa | LR,0.026666666666666707,0.0311111111,-0.1111111111,0.1688888889,True
+Confounders + Diet + Taxa | LR,Taxa | SVM,0.08,0.0844444444,-0.0712222222,0.2445555555,True
+Confounders + Diet + Taxa | LR,Taxa | BRF,0.10444444444444445,0.1022222222,-0.0622222222,0.2888888889,True
+Confounders + Diet + Taxa | LR,Diet + Taxa | LR,2.2204460492503132e-17,0.0044444444,-0.1156666667,0.12,True
+Confounders + Diet + Taxa | LR,Diet + Taxa | SVM,-0.03111111111111109,-0.0266666667,-0.16,0.1022222222,True
+Confounders + Diet + Taxa | LR,Diet + Taxa | BRF,0.09333333333333335,0.0888888889,-0.0712222222,0.2711111111,True
+Confounders + Diet + Taxa | LR,Confounders + Diet + Taxa | SVM,0.031111111111111155,0.0311111111,-0.0488888889,0.12,True
+Confounders + Diet + Taxa | LR,Confounders + Diet + Taxa | BRF,0.07777777777777777,0.0777777778,-0.0711111111,0.2444444444,True

@@ -1,0 +1,4 @@
+Family,Configurations,Observed maximum,Configuration at maximum,k,Null maximum median,Null maximum 95th percentile,p
+8 residualized configurations,8,0.6044444444444445,ADJ | Diet_adj + Taxa_adj | SVM,383,0.5822222222222222,0.711111111111111,0.3836163836163836
+LR only: 5 main-analysis LR + 4 residualized LR,9,0.5955555555555556,ORIG | Diet + Taxa | LR; ORIG | Confounders + Diet + Taxa | LR,553,0.6,0.7377777777777779,0.5534465534465535
+15 main-analysis + 8 residualized configurations,23,0.6266666666666667,ORIG | Diet + Taxa | SVM,563,0.6355555555555555,0.7644444444444445,0.5634365634365635

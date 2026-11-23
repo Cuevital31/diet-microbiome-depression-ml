@@ -1,0 +1,18 @@
+Feature,Group,Selected by FS consensus,Times above median,Split 1,Split 2,Split 3,Split 4,Split 5
+Chol_PK,Diet,--,5,-0.6474,-0.3336,-0.6568,-0.7834,-0.4375
+Carb_PE,Diet,--,4,0.6840,0.6539,0.7667,--,0.4150
+Prot_PE,Diet,--,3,-0.6269,-0.3548,--,--,-0.7165
+SatFat_PE,Diet,--,3,0.3435,--,0.4984,0.3345,--
+Poly_InsFat_PE,Diet,--,2,0.4671,--,--,0.6565,--
+Fiber_PK,Diet,--,2,--,0.7895,0.4372,--,--
+MUF_PE,Diet,--,2,0.3611,--,-0.5030,--,--
+Lachnospiraceae_ND3007_group (Lachnospiraceae); 0.2.10.2.2.11.26,Taxa,2,2,-0.8898,--,--,--,-0.9487
+Ruminiclostridium_9 (Ruminococcaceae); 0.2.10.2.2.14.28,Taxa,2,2,--,-0.3103,-0.6975,--,--
+Catabacter (Christensenellaceae); 0.2.10.2.2.2.1,Taxa,2,2,-0.3488,--,--,--,-0.5781
+Lachnospiraceae_FCS020_group (Lachnospiraceae); 0.2.10.2.2.11.24,Taxa,2,2,0.4187,--,--,--,0.4790
+"Rhizobiales_unclassified (order Rhizobiales, family unclassified); 0.2.17.1.6.5.1",Taxa,2,2,--,--,-0.3789,--,-0.3869
+Dielma (Erysipelotrichaceae); 0.2.10.3.1.1.6,Taxa,3,2,-0.4839,--,--,--,-0.3305
+BMI,Confounder,--,5,0.4128,-0.8503,-0.7316,-0.7193,0.5218
+PA,Confounder,--,4,1.2338,--,0.4680,0.8479,0.5754
+SQ_all,Confounder,--,2,--,--,-1.2619,-0.9223,--
+Age,Confounder,--,2,-0.6578,--,--,-0.4868,--

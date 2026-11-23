@@ -1,0 +1,14 @@
+Feature,Group,Coefficient sign (+ / - splits),Change in log-OR (absolute),Change in log-OR (%),Direction agreement
+Chol_PK,Diet,+0 / -5,+0.091,-12,Yes
+Carb_PE,Diet,+5 / -0,+0.083,+57,Yes
+Prot_PE,Diet,+2 / -3,-0.141,+61,Yes
+SatFat_PE,Diet,+5 / -0,-0.089,-65,Yes
+Poly_InsFat_PE,Diet,+4 / -1,-0.041,-12,Yes
+Fiber_PK,Diet,+4 / -1,-0.189,n/a*,No
+MUF_PE,Diet,+4 / -1,-0.111,n/a*,No
+Lachnospiraceae_ND3007_group (Lachnospiraceae); 0.2.10.2.2.11.26,Taxon,+0 / -2,-0.001,+0,Yes
+Ruminiclostridium_9 (Ruminococcaceae); 0.2.10.2.2.14.28,Taxon,+0 / -2,+0.137,-32,Yes
+Catabacter (Christensenellaceae); 0.2.10.2.2.2.1,Taxon,+0 / -2,-0.075,-29,No
+Lachnospiraceae_FCS020_group (Lachnospiraceae); 0.2.10.2.2.11.24,Taxon,+2 / -0,+0.193,-52,No
+"Rhizobiales_unclassified (order Rhizobiales, family unclassified); 0.2.17.1.6.5.1",Taxon,+0 / -2,-0.267,-68,No
+Dielma (Erysipelotrichaceae); 0.2.10.3.1.1.6,Taxon,+1 / -2,-0.058,-16,No

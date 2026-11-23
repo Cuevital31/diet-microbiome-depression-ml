@@ -1,0 +1,18 @@
+Feature,Group,Splits in model,Splits retained (k/5),Positive coefficient,Negative coefficient,Mean coefficient
+Chol_PK,Diet,5,5,0,5,-0.572
+Carb_PE,Diet,5,4,5,0,+0.553
+Prot_PE,Diet,5,3,2,3,-0.302
+SatFat_PE,Diet,5,3,5,0,+0.341
+Poly_InsFat_PE,Diet,5,2,4,1,+0.318
+Fiber_PK,Diet,5,2,4,1,+0.286
+MUF_PE,Diet,5,2,4,1,+0.104
+Lachnospiraceae_ND3007_group (Lachnospiraceae); 0.2.10.2.2.11.26,Taxa,2,2,0,2,-0.919
+Ruminiclostridium_9 (Ruminococcaceae); 0.2.10.2.2.14.28,Taxa,2,2,0,2,-0.504
+Catabacter (Christensenellaceae); 0.2.10.2.2.2.1,Taxa,2,2,0,2,-0.463
+Lachnospiraceae_FCS020_group (Lachnospiraceae); 0.2.10.2.2.11.24,Taxa,2,2,2,0,+0.449
+"Rhizobiales_unclassified (order Rhizobiales, family unclassified); 0.2.17.1.6.5.1",Taxa,2,2,0,2,-0.383
+Dielma (Erysipelotrichaceae); 0.2.10.3.1.1.6,Taxa,3,2,1,2,-0.206
+BMI,Confounder,5,5,2,3,-0.273
+PA,Confounder,5,4,4,1,+0.583
+SQ_all,Confounder,5,2,0,5,-0.500
+Age,Confounder,5,2,1,4,-0.305

@@ -1,0 +1,4 @@
+Family,Configurations,Observed maximum,Best configuration,k,p
+8 residualized configurations,8,0.604,ADJ | Diet_adj + Taxa_adj | SVM,383,0.384
+LR only: 5 main-analysis LR + 4 residualized LR,9,0.596,ORIG | Diet + Taxa | LR; ORIG | Confounders + Diet + Taxa | LR,553,0.553
+15 main-analysis + 8 residualized configurations,23,0.627,ORIG | Diet + Taxa | SVM,563,0.563

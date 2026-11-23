@@ -1,0 +1,12 @@
+{
+  "pooled_confusion_main_configuration": {
+    "TP": 4,
+    "FN": 11,
+    "TN": 57,
+    "FP": 18,
+    "mean_auc": 0.5955555555555556
+  },
+  "configurations_with_split_values_on_both_sides_of_0.5": 15,
+  "figure3_filled_markers": 33,
+  "figure3_features": 13
+}

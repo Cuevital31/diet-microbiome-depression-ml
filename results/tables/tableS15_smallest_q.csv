@@ -1,0 +1,7 @@
+Model,Smallest q,Features with p < 0.05,Features with q < 0.10
+unadjusted,0.268,2,0
+adjusted,0.391,1,0
+without Age,0.247,1,0
+without BMI,0.327,1,0
+without SQ_all,0.310,2,0
+without PA,0.581,1,0

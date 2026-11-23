@@ -1,0 +1,64 @@
+{
+  "participants": 88,
+  "depressive": 15,
+  "control": 73,
+  "outcome_rule": "Zung index >= 50 (identical to > 50 in this cohort)",
+  "microbiome": {
+    "n_entries_kingdom_to_genus": 850,
+    "n_after_prevalence_filter": 422,
+    "n_after_low_count_filter": 421,
+    "n_genus_level_taxa": 249,
+    "taxonomic_levels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "min_reads_per_sample": 15617,
+    "n_samples_below_min_reads": 0
+  },
+  "diet": {
+    "screened_variables": [
+      "Prot_PE",
+      "TF_PE",
+      "SatFat_PE",
+      "MUF_PE",
+      "Poly_InsFat_PE",
+      "Chol_PK",
+      "Carb_PE",
+      "Fiber_PK",
+      "Kcal"
+    ],
+    "pairs_with_abs_rho_at_or_above_0.90": [
+      [
+        "TF_PE",
+        "MUF_PE",
+        0.9445951181712514
+      ]
+    ],
+    "removed": [
+      "TF_PE"
+    ],
+    "model_inputs": [
+      "Prot_PE",
+      "SatFat_PE",
+      "MUF_PE",
+      "Poly_InsFat_PE",
+      "Chol_PK",
+      "Carb_PE",
+      "Fiber_PK"
+    ]
+  },
+  "confounders": {
+    "names": [
+      "Age",
+      "BMI",
+      "SQ_all",
+      "PA"
+    ],
+    "spearman_min": -0.277164582021657,
+    "spearman_max": 0.33183711690918327
+  }
+}

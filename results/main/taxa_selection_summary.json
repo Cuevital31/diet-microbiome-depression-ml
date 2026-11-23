@@ -1,0 +1,16 @@
+{
+  "taxa_per_split": [
+    21,
+    16,
+    17,
+    16,
+    19
+  ],
+  "distinct_taxa_selected": 72,
+  "selected_in_at_least_2_splits": 15,
+  "selected_in_at_least_3_splits": 2,
+  "selected_in_all_5_splits": 0,
+  "pooled_test_instances": 90,
+  "distinct_test_participants": 63,
+  "convergence_warnings": 0
+}

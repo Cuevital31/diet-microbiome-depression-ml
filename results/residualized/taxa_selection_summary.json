@@ -1,0 +1,13 @@
+{
+  "taxa_per_split": [
+    23,
+    11,
+    19,
+    19,
+    18
+  ],
+  "distinct_taxa_selected": 70,
+  "selected_in_at_least_2_splits": 17,
+  "selected_in_at_least_3_splits": 3,
+  "selected_in_all_5_splits": 0
+}

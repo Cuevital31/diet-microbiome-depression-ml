@@ -1,0 +1,4 @@
+Family (configurations),Feature sets,Observed maximum,Configuration at maximum,k,Null maximum median,Null maximum 95th percentile,p
+15,"Confounders, Diet, Taxa, Diet + Taxa, Confounders + Diet + Taxa",0.6266666666666667,Diet + Taxa | SVM,495,0.6244444444444444,0.7578888888888888,0.4955044955044955
+12,"Confounders, Diet, Taxa, Confounders + Diet + Taxa",0.5955555555555556,Confounders + Diet + Taxa | LR,663,0.6222222222222222,0.7556666666666666,0.6633366633366633
+9,"Diet, Taxa, Diet + Taxa",0.6266666666666667,Diet + Taxa | SVM,378,0.6022222222222222,0.7288888888888889,0.3786213786213786

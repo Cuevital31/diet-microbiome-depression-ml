@@ -1,0 +1,8 @@
+{
+  "fits": 468,
+  "converged": 468,
+  "fits_prioritised": 78,
+  "fits_reference": 390,
+  "reference_min_prevalence": 18,
+  "software": "logistf 1.26.1 | R version 4.5.1 (2025-06-13 ucrt) | fits: 468"
+}

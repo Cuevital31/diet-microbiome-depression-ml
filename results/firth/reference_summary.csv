@@ -1,0 +1,3 @@
+Model,Features,Dietary variables,Taxa,Features with p < 0.05,Features with q < 0.10,Smallest q
+unadjusted,195,7,188,5,0,0.829934698108815
+adjusted,195,7,188,5,0,0.997061238496291

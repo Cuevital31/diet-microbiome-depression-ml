@@ -1,0 +1,14 @@
+Feature,Group,Splits retained (k/5),Unadjusted OR (95% CI),Unadjusted q,Adjusted OR (95% CI),Adjusted q
+Chol_PK,Diet,5/5,0.45 (0.17–0.98),0.282,0.50 (0.18–1.07),0.515
+Carb_PE,Diet,4/5,1.16 (0.67–2.00),0.741,1.26 (0.70–2.35),0.776
+Prot_PE,Diet,3/5,0.79 (0.42–1.38),0.628,0.69 (0.33–1.27),0.678
+SatFat_PE,Diet,3/5,1.15 (0.66–2.04),0.741,1.05 (0.58–1.92),0.946
+Poly_InsFat_PE,Diet,2/5,1.40 (0.82–2.44),0.409,1.34 (0.75–2.41),0.678
+Fiber_PK,Diet,2/5,1.05 (0.60–1.79),0.858,0.87 (0.47–1.52),0.776
+MUF_PE,Diet,2/5,1.10 (0.63–1.89),0.797,0.98 (0.53–1.73),0.953
+Lachnospiraceae_ND3007_group (Lachnospiraceae); 0.2.10.2.2.11.26,Taxon,2/5,0.54 (0.31–0.91),0.268,0.54 (0.30–0.94),0.391
+Ruminiclostridium_9 (Ruminococcaceae); 0.2.10.2.2.14.28,Taxon,2/5,0.65 (0.37–1.13),0.366,0.75 (0.42–1.29),0.678
+Catabacter (Christensenellaceae); 0.2.10.2.2.2.1,Taxon,2/5,1.30 (0.77–2.14),0.512,1.20 (0.68–2.01),0.776
+Lachnospiraceae_FCS020_group (Lachnospiraceae); 0.2.10.2.2.11.24,Taxon,2/5,0.69 (0.38–1.20),0.409,0.84 (0.46–1.49),0.776
+"Rhizobiales_unclassified (order Rhizobiales, family unclassified); 0.2.17.1.6.5.1",Taxon,2/5,1.48 (0.89–2.45),0.366,1.14 (0.64–1.99),0.776
+Dielma (Erysipelotrichaceae); 0.2.10.3.1.1.6,Taxon,2/5,1.43 (0.88–2.29),0.366,1.35 (0.77–2.28),0.678

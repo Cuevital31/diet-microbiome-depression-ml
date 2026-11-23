@@ -1,0 +1,16 @@
+Configuration,Observed mean ROC-AUC,Unadjusted p,Adjusted p (15),Adjusted p (12)
+Confounders | LR,0.498,0.491,0.969,0.968
+Confounders | SVM,0.511,0.443,0.954,0.952
+Confounders | BRF,0.458,0.646,0.990,0.990
+Diet | LR,0.551,0.312,0.877,0.874
+Diet | SVM,0.578,0.220,0.774,0.758
+Diet | BRF,0.507,0.445,0.960,0.958
+Taxa | LR,0.569,0.232,0.815,0.806
+Taxa | SVM,0.516,0.443,0.949,0.946
+Taxa | BRF,0.491,0.572,0.974,0.974
+Diet + Taxa | LR,0.596,0.178,0.681,--
+Diet + Taxa | SVM,0.627,0.093,0.496,--
+Diet + Taxa | BRF,0.502,0.501,0.964,--
+Confounders + Diet + Taxa | LR,0.596,0.182,0.681,0.663
+Confounders + Diet + Taxa | SVM,0.564,0.262,0.829,0.822
+Confounders + Diet + Taxa | BRF,0.518,0.452,0.945,0.942
