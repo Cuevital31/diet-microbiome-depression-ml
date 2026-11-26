@@ -1,0 +1,197 @@
+{
+  "plan_sha256": "9a7179af9607655464568b0133c9bfa2674ae45c0c84cdd91a9be16c14883e58",
+  "pairs": [
+    [
+      "Prot_pctE",
+      "0.2.10.2.2.11.26"
+    ],
+    [
+      "Prot_pctE",
+      "0.2.10.2.2.14.28"
+    ],
+    [
+      "Prot_pctE",
+      "0.2.10.2.2.2.1"
+    ],
+    [
+      "Prot_pctE",
+      "0.2.10.2.2.11.24"
+    ],
+    [
+      "Prot_pctE",
+      "0.2.17.1.6.5.1"
+    ],
+    [
+      "Prot_pctE",
+      "0.2.10.3.1.1.6"
+    ],
+    [
+      "SatFat_pctE",
+      "0.2.10.2.2.11.26"
+    ],
+    [
+      "SatFat_pctE",
+      "0.2.10.2.2.14.28"
+    ],
+    [
+      "SatFat_pctE",
+      "0.2.10.2.2.2.1"
+    ],
+    [
+      "SatFat_pctE",
+      "0.2.10.2.2.11.24"
+    ],
+    [
+      "SatFat_pctE",
+      "0.2.17.1.6.5.1"
+    ],
+    [
+      "SatFat_pctE",
+      "0.2.10.3.1.1.6"
+    ],
+    [
+      "MUF_pctE",
+      "0.2.10.2.2.11.26"
+    ],
+    [
+      "MUF_pctE",
+      "0.2.10.2.2.14.28"
+    ],
+    [
+      "MUF_pctE",
+      "0.2.10.2.2.2.1"
+    ],
+    [
+      "MUF_pctE",
+      "0.2.10.2.2.11.24"
+    ],
+    [
+      "MUF_pctE",
+      "0.2.17.1.6.5.1"
+    ],
+    [
+      "MUF_pctE",
+      "0.2.10.3.1.1.6"
+    ],
+    [
+      "Poly_InsFat_pctE",
+      "0.2.10.2.2.11.26"
+    ],
+    [
+      "Poly_InsFat_pctE",
+      "0.2.10.2.2.14.28"
+    ],
+    [
+      "Poly_InsFat_pctE",
+      "0.2.10.2.2.2.1"
+    ],
+    [
+      "Poly_InsFat_pctE",
+      "0.2.10.2.2.11.24"
+    ],
+    [
+      "Poly_InsFat_pctE",
+      "0.2.17.1.6.5.1"
+    ],
+    [
+      "Poly_InsFat_pctE",
+      "0.2.10.3.1.1.6"
+    ],
+    [
+      "Chol_mg_per_1000kcal",
+      "0.2.10.2.2.11.26"
+    ],
+    [
+      "Chol_mg_per_1000kcal",
+      "0.2.10.2.2.14.28"
+    ],
+    [
+      "Chol_mg_per_1000kcal",
+      "0.2.10.2.2.2.1"
+    ],
+    [
+      "Chol_mg_per_1000kcal",
+      "0.2.10.2.2.11.24"
+    ],
+    [
+      "Chol_mg_per_1000kcal",
+      "0.2.17.1.6.5.1"
+    ],
+    [
+      "Chol_mg_per_1000kcal",
+      "0.2.10.3.1.1.6"
+    ],
+    [
+      "Carb_pctE",
+      "0.2.10.2.2.11.26"
+    ],
+    [
+      "Carb_pctE",
+      "0.2.10.2.2.14.28"
+    ],
+    [
+      "Carb_pctE",
+      "0.2.10.2.2.2.1"
+    ],
+    [
+      "Carb_pctE",
+      "0.2.10.2.2.11.24"
+    ],
+    [
+      "Carb_pctE",
+      "0.2.17.1.6.5.1"
+    ],
+    [
+      "Carb_pctE",
+      "0.2.10.3.1.1.6"
+    ],
+    [
+      "Fiber_g_per_1000kcal",
+      "0.2.10.2.2.11.26"
+    ],
+    [
+      "Fiber_g_per_1000kcal",
+      "0.2.10.2.2.14.28"
+    ],
+    [
+      "Fiber_g_per_1000kcal",
+      "0.2.10.2.2.2.1"
+    ],
+    [
+      "Fiber_g_per_1000kcal",
+      "0.2.10.2.2.11.24"
+    ],
+    [
+      "Fiber_g_per_1000kcal",
+      "0.2.17.1.6.5.1"
+    ],
+    [
+      "Fiber_g_per_1000kcal",
+      "0.2.10.3.1.1.6"
+    ]
+  ],
+  "B": 5000,
+  "seed": 2026,
+  "covariates_M1": [
+    "Age",
+    "BMI",
+    "SQ_all",
+    "PA"
+  ],
+  "outcome": "Zung_S",
+  "n": 88,
+  "runs": {
+    "M1": "Zung_S (index score) | Age + BMI + SQ_all + PA (z-scored)",
+    "S1": "rank-based inverse-normal Zung_S (Blom) | Age + BMI + SQ_all + PA (z-scored)",
+    "S2": "Zung_S (index score) | none (M0)"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "seconds": 1.2056443691253662
+}

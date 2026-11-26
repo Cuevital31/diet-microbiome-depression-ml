@@ -19,6 +19,10 @@ Supplementary Figure S2) and the PICRUSt2/KEGG functional predictions (Supplemen
 notebooks in `notebooks/` (see `notebooks/README.md`). They are not part of `run_all.py`: they were written for Google
 Colab, and the SCFA notebook needs participant-level intermediates of the main pipeline that are not shared.
 
+**Mediation analysis.** The exploratory single-mediator analysis (diet → taxon → Zung score; Supplementary Figure S3) is in
+`mediation/` (see `mediation/README.md`). Its scripts and aggregate results are included; like the notebooks, it is not
+part of `run_all.py` and needs the participant-level inputs.
+
 ## Requirements
 
 - **Python 3.13.5** with the exact package builds in `environment.yml`: Anaconda defaults channel, Windows 64-bit,
@@ -136,6 +140,7 @@ interpretability; it was not pre-specified. All 15 configurations are reported.
 | Supplementary Table S4 (SCFA group comparisons) | `notebooks/scfa/scfa_analysis.ipynb` | notebook |
 | Figure 4, Supplementary Figure S2 (SCFA correlations) | `notebooks/scfa/scfa_analysis.ipynb` | notebook |
 | Supplementary Tables S5–S7 (PICRUSt2 KO occurrence) | `notebooks/picrust2/PICRUSt2_9ASV_S5_S7.ipynb` | notebook |
+| Supplementary Figure S3 (mediation: indirect effects, 42 pairs) | `mediation/01_family_P/forest_plot_ab_family_P.pdf` | `mediation/run_A_family_P.py` |
 | Confusion counts in the Results text (4 of 15 depressive, 57 of 75 control) | `results/figures/figure_values.json` | 10 |
 
 Other aggregate outputs (performance of every metric, ROC-AUC per split, taxa selection frequency, permutation null

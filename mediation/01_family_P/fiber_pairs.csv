@@ -1,0 +1,7 @@
+"X (diet, per 1 SD)",M (taxon),a: M ~ X + C (SD of M per SD of X),c: Y ~ X + C (Zung points),b: Y ~ X + M + C (Zung points per SD of M),c': Y ~ X + M + C (Zung points),ab (95% bootstrap CI),bootstrap p,bootstrap q (BH),proportion mediated
+Fiber_g_per_1000kcal,Lachnospiraceae_ND3007_group (Lachnospiraceae); 0.2.10.2.2.11.26,+0.167 (p = 0.231),-1.585 (p = 0.156),-2.795 (p = 0.029),-1.118 (p = 0.316),-0.467 (-1.434 to +0.267),0.214,0.960,
+Fiber_g_per_1000kcal,Ruminiclostridium_9 (Ruminococcaceae); 0.2.10.2.2.14.28,+0.004 (p = 0.975),-1.585 (p = 0.156),-0.889 (p = 0.459),-1.581 (p = 0.154),-0.004 (-0.440 to +0.346),0.937,0.960,
+Fiber_g_per_1000kcal,Catabacter (Christensenellaceae); 0.2.10.2.2.2.1,+0.162 (p = 0.226),-1.585 (p = 0.156),+1.091 (p = 0.248),-1.762 (p = 0.126),+0.177 (-0.191 to +0.646),0.385,0.960,
+Fiber_g_per_1000kcal,Lachnospiraceae_FCS020_group (Lachnospiraceae); 0.2.10.2.2.11.24,+0.100 (p = 0.430),-1.585 (p = 0.156),-1.537 (p = 0.264),-1.431 (p = 0.199),-0.154 (-0.841 to +0.261),0.521,0.960,
+Fiber_g_per_1000kcal,Rhizobiales_unclassified (Rhizobiales_unclassified); 0.2.17.1.6.5.1,-0.143 (p = 0.219),-1.585 (p = 0.156),+0.471 (p = 0.664),-1.518 (p = 0.165),-0.067 (-0.566 to +0.276),0.706,0.960,
+Fiber_g_per_1000kcal,Dielma (Erysipelotrichaceae); 0.2.10.3.1.1.6,+0.027 (p = 0.861),-1.585 (p = 0.156),+1.041 (p = 0.380),-1.614 (p = 0.143),+0.029 (-0.477 to +0.452),0.935,0.960,

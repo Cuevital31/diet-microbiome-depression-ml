@@ -1,0 +1,35 @@
+quantity,value,source
+Family P: pairs,42.0,01_family_P/results_per_pair.csv
+Family P: bootstrap replicates B,5000.0,01_family_P/results_per_pair.csv
+Family P (M1): pairs with bootstrap 95% CI of ab excluding 0,0.0,01_family_P/results_per_pair.csv
+Family P (M1): minimum bootstrap q (BH),0.96,01_family_P/results_per_pair.csv
+Family P (M1): minimum bootstrap p,0.0716,01_family_P/results_per_pair.csv
+Family P (M1): degenerate bootstrap replicates,0.0,01_family_P/results_per_pair.csv
+Family P (M1): diet variables with c path p < 0.05 (of 7),0.0,01_family_P/results_per_pair.csv
+Family P (M1): pairs with a path p < 0.05,1.0,01_family_P/bk_flags_summary.csv
+Family P (M1): pairs with b path p < 0.05 and |c'| < |c|,4.0,01_family_P/bk_flags_summary.csv
+Family P (M1): pairs meeting all three Baron-Kenny criteria (nominal 0.05),0.0,01_family_P/bk_flags_summary.csv
+Family P (M1): pairs meeting all three Baron-Kenny criteria (BH q < 0.10),0.0,01_family_P/bk_flags_summary.csv
+Family P (M1): pairs with Sobel p < 0.05 (descriptive),0.0,01_family_P/bk_flags_summary.csv
+"S1 (inverse-normal Zung, M1): pairs with CI excluding 0",0.0,03_sensitivity/S1_inverse_normal_zung_M1_results_per_pair.csv
+S1: minimum bootstrap q,0.94,03_sensitivity/S1_inverse_normal_zung_M1_results_per_pair.csv
+S2 (no covariates): pairs with CI excluding 0,0.0,03_sensitivity/S2_no_covariates_M0_results_per_pair.csv
+S2: minimum bootstrap q,0.9,03_sensitivity/S2_no_covariates_M0_results_per_pair.csv
+Fiber pairs (M1): pairs with CI excluding 0 (of 6),0.0,01_family_P/fiber_pairs_full_columns.csv
+"Fiber_g_per_1000kcal: total effect c (Zung points per SD), M1",-1.585,01_family_P/fiber_pairs_full_columns.csv
+"Fiber_g_per_1000kcal: c path p, M1",0.156,01_family_P/fiber_pairs_full_columns.csv
+Fiber pairs: minimum bootstrap q,0.96,01_family_P/fiber_pairs_full_columns.csv
+Family S: pairs,1316.0,02_family_S/summary.csv
+Family S: taxa (prevalence >= 18 of 88),188.0,02_family_S/summary.csv
+Family S: pairs with CI excluding 0,0.0,02_family_S/summary.csv
+Family S: expected under the null at 5%,65.8,02_family_S/summary.csv
+Family S: pairs with a path p < 0.05,57.0,02_family_S/summary.csv
+Family S: pairs with b path p < 0.05,46.0,02_family_S/summary.csv
+Family S: pairs with both a and b p < 0.05,4.0,02_family_S/summary.csv
+Family S: pairs with Sobel p < 0.05,0.0,02_family_S/summary.csv
+Family S: diet variables with c path p < 0.05 (of 7),0.0,02_family_S/summary.csv
+Family S: minimum bootstrap q,1.0,02_family_S/summary.csv
+Family S: minimum bootstrap p,0.057,02_family_S/summary.csv
+Family S: Baron-Kenny all three criteria (nominal 0.05),0.0,02_family_S/summary.csv
+Family S: pairs with a path q < 0.10,1.0,02_family_S/results_per_pair.csv
+Family S: degenerate bootstrap replicates,0.0,02_family_S/summary.csv

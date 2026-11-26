@@ -1,0 +1,39 @@
+{
+  "plan_sha256": "9a7179af9607655464568b0133c9bfa2674ae45c0c84cdd91a9be16c14883e58",
+  "seed": 2026,
+  "B_family_P": 5000,
+  "B_family_S": 2000,
+  "diet": [
+    "Prot_pctE",
+    "SatFat_pctE",
+    "MUF_pctE",
+    "Poly_InsFat_pctE",
+    "Chol_mg_per_1000kcal",
+    "Carb_pctE",
+    "Fiber_g_per_1000kcal"
+  ],
+  "covariates": [
+    "Age",
+    "BMI",
+    "SQ_all",
+    "PA"
+  ],
+  "taxa_family_P": [
+    "0.2.10.2.2.11.26",
+    "0.2.10.2.2.14.28",
+    "0.2.10.2.2.2.1",
+    "0.2.10.2.2.11.24",
+    "0.2.17.1.6.5.1",
+    "0.2.10.3.1.1.6"
+  ],
+  "n_taxa_family_S": 188,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "family_P_settings": "01_family_P/family_P_settings.json"
+}

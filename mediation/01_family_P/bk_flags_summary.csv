@@ -1,0 +1,12 @@
+criterion,n_pairs_meeting,n_pairs
+(1) a path p < 0.05,1,42
+(2) c path p < 0.05,0,42
+(3) b path p < 0.05 and |c'| < |c|,4,42
+all three criteria (nominal 0.05),0,42
+(1) a path q < 0.10,0,42
+(2) c path q < 0.10 (BH over 7 diet variables),0,42
+(3) b path q < 0.10 and |c'| < |c|,0,42
+all three criteria (BH q < 0.10),0,42
+bootstrap 95% CI of ab excludes 0,0,42
+bootstrap q < 0.10,0,42
+Sobel p < 0.05 (descriptive),0,42

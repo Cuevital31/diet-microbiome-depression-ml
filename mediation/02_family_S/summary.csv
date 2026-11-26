@@ -1,0 +1,21 @@
+quantity,value
+pairs,1316.0
+taxa (prevalence >= 18 of 88),188.0
+bootstrap replicates B,2000.0
+degenerate bootstrap replicates (all pairs),0.0
+pairs with bootstrap 95% CI of ab excluding 0,0.0
+expected under the null at 5% (0.05 x pairs),65.8
+pairs with bootstrap p < 0.05,0.0
+pairs with a path p < 0.05,57.0
+pairs with b path p < 0.05,46.0
+pairs with both a and b p < 0.05,4.0
+pairs with Sobel p < 0.05 (descriptive),0.0
+diet variables with c path p < 0.05 (of 7),0.0
+Baron-Kenny all three criteria (nominal 0.05),0.0
+Baron-Kenny all three criteria (BH q < 0.10),0.0
+pairs with bootstrap q < 0.10,0.0
+minimum bootstrap q,0.9997596958174905
+minimum bootstrap p,0.057
+minimum a-path q,0.09594342895646442
+minimum b-path q,0.9953769746445362
+minimum Sobel q,0.9994249617514611
