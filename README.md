@@ -14,9 +14,10 @@ The pipeline relates dietary intake and gut microbiome composition to depressive
 - two confounder sensitivity analyses;
 - the figures of these analyses.
 
-**Not included.** The measured short-chain fatty acid (SCFA) analyses (SCFA models, group comparisons and SCFA
-correlations: Supplementary Tables S2–S4, Figure 4, Supplementary Figure S2) and the PICRUSt2/KEGG functional
-predictions (Supplementary Tables S5–S7) are not part of this repository.
+**Notebooks.** The measured short-chain fatty acid (SCFA) analyses (Supplementary Tables S2–S4, Figure 4,
+Supplementary Figure S2) and the PICRUSt2/KEGG functional predictions (Supplementary Tables S5–S7) are provided as
+notebooks in `notebooks/` (see `notebooks/README.md`). They are not part of `run_all.py`: they were written for Google
+Colab, and the SCFA notebook needs participant-level intermediates of the main pipeline that are not shared.
 
 ## Requirements
 
@@ -131,6 +132,10 @@ interpretability; it was not pre-specified. All 15 configurations are reported.
 | Supplementary Table S16 | `results/tables/tableS16.csv` | 05, 11 |
 | Supplementary Table S18 | `results/tables/tableS18a.csv`, `tableS18b.csv` | 07, 08, 11 |
 | Supplementary Table S19 | `results/tables/tableS19.csv` | 09, 11 |
+| Supplementary Tables S2, S3 (SCFA logistic-regression models) | `notebooks/scfa/scfa_analysis.ipynb` | notebook |
+| Supplementary Table S4 (SCFA group comparisons) | `notebooks/scfa/scfa_analysis.ipynb` | notebook |
+| Figure 4, Supplementary Figure S2 (SCFA correlations) | `notebooks/scfa/scfa_analysis.ipynb` | notebook |
+| Supplementary Tables S5–S7 (PICRUSt2 KO occurrence) | `notebooks/picrust2/PICRUSt2_9ASV_S5_S7.ipynb` | notebook |
 | Confusion counts in the Results text (4 of 15 depressive, 57 of 75 control) | `results/figures/figure_values.json` | 10 |
 
 Other aggregate outputs (performance of every metric, ROC-AUC per split, taxa selection frequency, permutation null
